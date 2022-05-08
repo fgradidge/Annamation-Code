@@ -1,4 +1,7 @@
 
+var playing = false;
+var startButton;
+
 
 const para = document.querySelector('p');
 let count = 0;
@@ -194,5 +197,9 @@ function loop() {
 
   requestAnimationFrame(loop);
 }
+  document.getElementById("restart").addEventListener("click", function() {
+
+  });
 
 loop();
+
